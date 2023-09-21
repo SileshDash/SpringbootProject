@@ -18,4 +18,7 @@ public interface DepartmentService {
 
 
    public Department updateDepartmentByid(Long deptId, Department department);
+
+
+   public Department getDepartmentByName(String deptName);
 }
